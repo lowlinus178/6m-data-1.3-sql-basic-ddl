@@ -3,8 +3,6 @@
 ## **SQL Data Definition Language (DDL) with DuckDB**
 
 
-**Duration:** 3 Hours
-
 **Tools:** [DbGate](https://dbgate.org/), [DuckDB](https://duckdb.org/)
 
 
@@ -14,7 +12,7 @@
 
 **Learning Objective:** By the end of this section, learners will be able to connect to a DuckDB database using DbGate and perform basic schema and table creation, alter table and drop (delete) table.
 
-* **Theory Summary/Recap (10 min):**  
+* **Theory Summary/Recap:**  
   * What is an RDBMS? Understanding the relationship between databases, schemas, and tables.
   * What is the Difference between Excel and a Relational Database?
 
@@ -239,8 +237,8 @@ Ref: students.class_id > classes.id // many-to-one
 Ref: classes.teacher_id > teachers.id // many-to-one
 ```
 
-* **Q\&A (10 min):** Troubleshooting foreign key errors and understanding "CHECK" logic.  
-* **Reflection (10 min):** How do constraints prevent "bad data" from entering your analysis pipeline?
+* **Q\&A:** Troubleshooting foreign key errors and understanding "CHECK" logic.  
+* **Reflection:** How do constraints prevent "bad data" from entering your analysis pipeline?
 
 
 ---
